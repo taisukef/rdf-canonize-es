@@ -1,5 +1,8 @@
 # rdf-canonize ChangeLog
 
+### Fixed
+- Avoid modification of input dataset.
+
 ### Changed
 - Test that input is not changed.
 - Optimize `forEachComponent`.
