@@ -5,4 +5,4 @@
  *
  * Copyright 2010-2021 Digital Bazaar, Inc.
  */
-module.exports = require('./lib');
+export * from "./lib/index.js";

@@ -56,19 +56,15 @@ Examples
 --------
 
 ```js
+import { canonize } from "./canonize.js";
+
 const dataset = {
   // ...
 };
 
 // canonize a data set with a particular algorithm with async/await
-const canonical = await canonize.canonize(dataset, {algorithm: 'URDNA2015'});
-
-// canonize a data set with a particular algorithm and force use of the
-// native implementation
-const canonical = await canonize.canonize(dataset, {
-  algorithm: 'URDNA2015',
-  useNative: true
-});
+const canonical = await canonize.canonize(dataset, { algorithm: 'URDNA2015' });
+console.log(canonical);
 ```
 
 Related Modules
