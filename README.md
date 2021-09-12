@@ -63,7 +63,7 @@ const dataset = {
 };
 
 // canonize a data set with a particular algorithm with async/await
-const canonical = await canonize.canonize(dataset, { algorithm: 'URDNA2015' });
+const canonical = await canonize(dataset, { algorithm: 'URDNA2015' });
 console.log(canonical);
 ```
 
