@@ -56,7 +56,7 @@ Examples
 --------
 
 ```js
-import { canonize } from "./canonize.js";
+import { canonize } from "https://taisukef.github.io/rdf-canonize-es/canonize.js";
 
 const dataset = {
   // ...
